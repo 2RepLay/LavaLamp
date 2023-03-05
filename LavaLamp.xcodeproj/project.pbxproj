@@ -16,6 +16,7 @@
 		113FF98C29B4AC1B00CDBA4C /* +Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98B29B4AC1B00CDBA4C /* +Array.swift */; };
 		113FF98E29B4AD7100CDBA4C /* AnimatablePolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98D29B4AD7100CDBA4C /* AnimatablePolygonShape.swift */; };
 		113FF99029B4B1A700CDBA4C /* AnimatingPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98F29B4B1A700CDBA4C /* AnimatingPolygon.swift */; };
+		1160B33929B4C0F7005BA021 /* BackgroundBlob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160B33829B4C0F7005BA021 /* BackgroundBlob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		113FF98B29B4AC1B00CDBA4C /* +Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+Array.swift"; sourceTree = "<group>"; };
 		113FF98D29B4AD7100CDBA4C /* AnimatablePolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePolygonShape.swift; sourceTree = "<group>"; };
 		113FF98F29B4B1A700CDBA4C /* AnimatingPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingPolygon.swift; sourceTree = "<group>"; };
+		1160B33829B4C0F7005BA021 /* BackgroundBlob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBlob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				113FF98B29B4AC1B00CDBA4C /* +Array.swift */,
 				113FF98D29B4AD7100CDBA4C /* AnimatablePolygonShape.swift */,
 				113FF98F29B4B1A700CDBA4C /* AnimatingPolygon.swift */,
+				1160B33829B4C0F7005BA021 /* BackgroundBlob.swift */,
 			);
 			path = LavaLamp;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				113FF97C29B4A56900CDBA4C /* ContentView.swift in Sources */,
 				113FF98829B4A79900CDBA4C /* Particle.swift in Sources */,
 				113FF98E29B4AD7100CDBA4C /* AnimatablePolygonShape.swift in Sources */,
+				1160B33929B4C0F7005BA021 /* BackgroundBlob.swift in Sources */,
 				113FF97A29B4A56900CDBA4C /* LavaLampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
