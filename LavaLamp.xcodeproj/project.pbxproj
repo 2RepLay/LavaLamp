@@ -11,6 +11,8 @@
 		113FF97C29B4A56900CDBA4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF97B29B4A56900CDBA4C /* ContentView.swift */; };
 		113FF97E29B4A56B00CDBA4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113FF97D29B4A56B00CDBA4C /* Assets.xcassets */; };
 		113FF98129B4A56B00CDBA4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113FF98029B4A56B00CDBA4C /* Preview Assets.xcassets */; };
+		113FF98829B4A79900CDBA4C /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98729B4A79900CDBA4C /* Particle.swift */; };
+		113FF98A29B4A81E00CDBA4C /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98929B4A81E00CDBA4C /* ParticleSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		113FF97B29B4A56900CDBA4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		113FF97D29B4A56B00CDBA4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113FF98029B4A56B00CDBA4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		113FF98729B4A79900CDBA4C /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		113FF98929B4A81E00CDBA4C /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				113FF97B29B4A56900CDBA4C /* ContentView.swift */,
 				113FF97D29B4A56B00CDBA4C /* Assets.xcassets */,
 				113FF97F29B4A56B00CDBA4C /* Preview Content */,
+				113FF98729B4A79900CDBA4C /* Particle.swift */,
+				113FF98929B4A81E00CDBA4C /* ParticleSystem.swift */,
 			);
 			path = LavaLamp;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113FF98A29B4A81E00CDBA4C /* ParticleSystem.swift in Sources */,
 				113FF97C29B4A56900CDBA4C /* ContentView.swift in Sources */,
+				113FF98829B4A79900CDBA4C /* Particle.swift in Sources */,
 				113FF97A29B4A56900CDBA4C /* LavaLampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
