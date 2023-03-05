@@ -13,6 +13,9 @@
 		113FF98129B4A56B00CDBA4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113FF98029B4A56B00CDBA4C /* Preview Assets.xcassets */; };
 		113FF98829B4A79900CDBA4C /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98729B4A79900CDBA4C /* Particle.swift */; };
 		113FF98A29B4A81E00CDBA4C /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98929B4A81E00CDBA4C /* ParticleSystem.swift */; };
+		113FF98C29B4AC1B00CDBA4C /* +Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98B29B4AC1B00CDBA4C /* +Array.swift */; };
+		113FF98E29B4AD7100CDBA4C /* AnimatablePolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98D29B4AD7100CDBA4C /* AnimatablePolygonShape.swift */; };
+		113FF99029B4B1A700CDBA4C /* AnimatingPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FF98F29B4B1A700CDBA4C /* AnimatingPolygon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		113FF98029B4A56B00CDBA4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		113FF98729B4A79900CDBA4C /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		113FF98929B4A81E00CDBA4C /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
+		113FF98B29B4AC1B00CDBA4C /* +Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+Array.swift"; sourceTree = "<group>"; };
+		113FF98D29B4AD7100CDBA4C /* AnimatablePolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePolygonShape.swift; sourceTree = "<group>"; };
+		113FF98F29B4B1A700CDBA4C /* AnimatingPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingPolygon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				113FF97F29B4A56B00CDBA4C /* Preview Content */,
 				113FF98729B4A79900CDBA4C /* Particle.swift */,
 				113FF98929B4A81E00CDBA4C /* ParticleSystem.swift */,
+				113FF98B29B4AC1B00CDBA4C /* +Array.swift */,
+				113FF98D29B4AD7100CDBA4C /* AnimatablePolygonShape.swift */,
+				113FF98F29B4B1A700CDBA4C /* AnimatingPolygon.swift */,
 			);
 			path = LavaLamp;
 			sourceTree = "<group>";
@@ -143,9 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113FF99029B4B1A700CDBA4C /* AnimatingPolygon.swift in Sources */,
 				113FF98A29B4A81E00CDBA4C /* ParticleSystem.swift in Sources */,
+				113FF98C29B4AC1B00CDBA4C /* +Array.swift in Sources */,
 				113FF97C29B4A56900CDBA4C /* ContentView.swift in Sources */,
 				113FF98829B4A79900CDBA4C /* Particle.swift in Sources */,
+				113FF98E29B4AD7100CDBA4C /* AnimatablePolygonShape.swift in Sources */,
 				113FF97A29B4A56900CDBA4C /* LavaLampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

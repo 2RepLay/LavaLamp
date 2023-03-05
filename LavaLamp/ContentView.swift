@@ -43,7 +43,7 @@ struct ContentView: View {
 						}
 					} symbols: {
 						ForEach(particleSystem.particles) { particle in
-							Circle()
+							AnimatingPolygon()
 								.frame(
 									width: particle.size,
 									height: particle.size
